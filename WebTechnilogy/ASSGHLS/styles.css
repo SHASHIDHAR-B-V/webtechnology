@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(128, 126, 126);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  padding: 10px 50px;
+}
+
+.ol {
+  height: 40px;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(39, 39, 38, 0.43);
+  /* border-radius: 5%; */
+}
+
+/* .anchor1 {
+  color: rgb(236, 86, 40);
+} */
+
+a:link {
+  /* color: rgb(61, 202, 61); */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(24, 25, 24);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(126, 121, 120);
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+a:active {
+  color: rgb(15, 15, 15);
+  background-color: transparent;
+  /* text-decoration: underline; */
+}
+
+.form {
+}
+
+legend {
+  font-size: 40px;
+  color: crimson;
+  width: 120px;
+  padding: 2px;
+  margin-left: calc(50% - 35px - 8px);
+}
+
+li {
+  color: chocolate;
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  /* padding-top: 500px; */
+}
+
+.h1a {
+  text-align: center;
+  font-size: 90px;
+  color: rgb(237, 119, 83);
+  padding-top: 120px;
+}
+
+.h1a::marker {
+  color: crimson;
+}
+
+h1::first-letter {
+  color: rgb(11, 11, 11);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 20px 20px; */
+}
+.btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px 20px; */
+}
+
+.input {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid #e91e63;
+  background: rgba(#e91e63);
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.4em;
+  color: #e91e63;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+}
+
+a .ab {
+  padding-bottom: 20px 2;
+}
+
+button {
+  background-color: tomato;
+  font-size: 20 px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  font-size: 20px;
+  padding: 20px;
+}
+
+input {
+  font-size: 15px;
+  height: 30px;
+  justify-content: center;
+}
+
+tr > td > button {
+  background-color: rgb(199, 163, 156);
+  font-size: 20 px;
+  padding: 20px;
+  height: 20px;
+  border-radius: 4px;
+}

@@ -1,0 +1,38 @@
+.heading {
+  font-size: 60px;
+}
+
+.first-letter::first-letter {
+  color: tomato;
+  font-size: 100px;
+}
+
+.first-line::first-line {
+  color: springgreen;
+  font-size: 40px;
+}
+
+.selection::selection {
+  color: brown;
+}
+
+li::marker {
+  font-size: 40px;
+  color: cadetblue;
+  padding-left: 40px;
+}
+
+li {
+  font-size: 40px;
+}
+
+.after::after {
+  content: 'web technology';
+  color: silver;
+  font-size: 40px;
+}
+.after::before {
+  content: 'Learning';
+  color: silver;
+  font-size: 40px;
+}

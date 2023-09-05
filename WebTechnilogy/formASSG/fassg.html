@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .resume {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume">
+      <h1>John Doe's Resume</h1>
+
+      <form action="submit_resume.php" method="POST">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <label for="education">Education:</label>
+        <input
+          type="text"
+          id="education"
+          name="education"
+          required
+        /><br /><br />
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea
+        ><br /><br />
+
+        <label for="skills">Skills:</label>
+        <textarea id="skills" name="skills" rows="4" required></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

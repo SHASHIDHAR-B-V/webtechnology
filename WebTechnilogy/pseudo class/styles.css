@@ -1,0 +1,31 @@
+h1:hover {
+  font-size: 200px;
+  color: blueviolet;
+}
+
+a:link {
+  color: violet;
+}
+
+a:visited {
+  color: aquamarine;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: chocolate;
+}
+
+div {
+  height: 300px;
+  width: 100px;
+  background-color: aquamarine;
+}
+
+.divs:hover {
+  background-color: rgb(8, 8, 8);
+  color: aliceblue;
+}

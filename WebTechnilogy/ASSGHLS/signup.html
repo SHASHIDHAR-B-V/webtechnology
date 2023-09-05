@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HLS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="nav">
+        <ol class="ol">
+          <li><a href="index.html">Dashboard</a></li>
+          <!-- <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign up</a></li> -->
+        </ol>
+      </nav>
+    </header>
+    <!-- form -->
+    <div class="form">
+      <form action="login" autocomplete="off" method="get">
+        <!-- <center><h1>Login Page</h1></center> -->
+        <fieldset width:50px>
+          <legend  <font  size="30px"> SignUp </font></legend>
+        <table class="table">
+          <tr>
+            <td class="td">
+              <label for="fname">First Name:</label>
+              <input class="input" type="text" id="fname" placeholder="First Name" name="FName" required 
+              autocomplete="off"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lname">Last Name:</label>
+              <input
+              class="input"
+                type="text"
+                id="lname"
+                placeholder="Last Name"
+                name="LName"
+                required autocomplete="off"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+              <input 
+              class="input"
+              type="email" id="email"          
+              required
+              placeholder="Email" autocomplete="off" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">password:</label>
+              <input class="input" type="password" id="pass" placeholder="Password" autocomplete="off" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pass">DOB:</label>
+              <input class="input" type="date" id="pass" placeholder="Date of Birth" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cb">Gender</label>
+              <input type="radio" id="cb1" name="cb" value="male" />male
+              <input type="radio" id="cb2" name="cb" value="female" required />
+              female
+              <input type="radio" id="cb3" name="cb" value="others" required />
+              Others
+            </td>
+          </tr>
+          
+          <!-- <div class="btn">
+            
+             <button><a class="ab" href="signup.html"> signup</a></button> 
+          </div> -->
+        </table>
+         <div class="inline">
+            <tr><td class="btn3"><button class="btn2" type="submit">Submit</button></td></tr>
+            <tr><td class="btn3"><button class="btn2" type="submit"><a href="login.html">Login</a></button></td></tr>
+           </div>
+      </form>
+    </div>
+     </fieldset>
+   
+  </body>
+</html>

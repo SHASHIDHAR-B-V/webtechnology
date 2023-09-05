@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="heading">
+      Pseudo Element is used to target particular part of an Element
+    </h1>
+    <ol>
+      <li>First Letter</li>
+      <li>First Line</li>
+      <li>After</li>
+      <li>Before</li>
+      <li>Marker</li>
+      <li>Selection</li>
+    </ol>
+
+    <!-- Syntax -->
+    <h2>
+      <pre>
+ syntax for pseudo element 
+ selector::pseudo-element
+     {
+      property : value;
+     }
+    </pre
+      >
+    </h2>
+
+    <hr />
+
+    <h1 class="first-letter">
+      Pseudo Element - First Letter selects only first letter of an Element
+      h1::first-letter
+    </h1>
+
+    <hr />
+    <h1 class="first-line">
+      Pseudo Element First line targets only first line of an Element
+      h1::firstline
+      <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita,
+      quo porro placeat tempora impedit dolor similique iusto cum. Omnis beatae
+      similique animi excepturi fugit sint alias rem adipisci deleniti.
+      Reprehenderit.
+    </h1>
+    <hr />
+    <h1 class="selection">Selection target the selected text</h1>
+    <br />
+    <hr />
+
+    <h1 class="after">Before and After pseudo Element</h1>
+    <br />
+    <hr />
+  </body>
+</html>

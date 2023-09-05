@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator Selectors</title>
+  <link rel="stylesheet" href="styles.css">
+   
+  </head>
+  <body>
+    <h1>Used to build an relationship between Selectors</h1>
+    <ol>
+      <li>Descendant Selectors (space)</li>
+      <li>Child Selectors (>)</li>
+      <li>adjacent sibling Selectors (+)</li>
+      <li>general sibling Selectors (~)</li>
+    </ol>
+<br>
+<hr>
+    <!-- Descendant Selectors (space) -->
+    <section>
+      <h1>Descendant Selector(space) and Direct Child</h1>
+      <h3>Descendant selector selects both direct and indirect child</h1>
+      <!-- <h1>Direct Child</h1>
+      <p>direct child</p> -->
+      <aside>
+        <h1>Indirect child</h1>
+        <!-- <h2>indirect child</h2> -->
+      </aside>
+    </section>
+<br>
+<hr>
+    <!-- Child Selector -->
+
+    <div>
+      <h1>Child Selector (>)</h1>
+      <h3>Child selector selects only direct children </h1>
+      <h4>Direct Child</h1>
+      <!-- <p>direct child</p> -->
+      <div>
+        <!-- <p>Indirect child</p> -->
+        <h2>indirect child</h2>
+      </div>
+    </section>
+<br>
+<hr>
+    <!-- Adjacent Sibling + -->
+    <section>
+     <h1>Adjacent Sibling (+) target only exactly next to parent</h1>
+     <h5>Adjacent Sibling</h5>
+    </section>
+    <br>
+    <hr>
+
+    <!-- General Sibling Selectors (~) -->
+
+    <h1>General Sibling Selectors (~) select all the sibling after that parent element </h1>
+    <div>
+     <h1>Direct</h1>
+     <div>
+      <h2>indirect</h2>
+     </div>
+    </div>
+
+  </body>
+</html>

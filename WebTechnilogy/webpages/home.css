@@ -1,0 +1,21 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/02/14/26/winter-landscape-2571788_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+nav {
+  height: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(235, 233, 239);
+  align-items: center;
+  color: rgb(216, 216, 205);
+}
+
+li {
+  color: rgb(30, 30, 30);
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 100px;
+}
+
+h1 {
+  width: 80vw;
+  height: 800px;
+  color: red;
+  border: 3px solid yellow;
+  overflow-y: scroll;
+  /* text-align: center; */
+  text-align: justify;
+  text-align: right;
+  text-align: left;
+  text-indent: 400px;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 5px;
+  line-height: 100px;
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
